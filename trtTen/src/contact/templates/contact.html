@@ -1,6 +1,9 @@
 {%  extends 'base.html' %}
 {% load crispy_forms_tags %}
 {% block content %}
+
+<div class='row'>
+<div class= 'col-sm-6 col-sm-offset-3'>
 <h1> {{ title }}</h1>
 {% if confirm_massage %}
 <p> {{ confirm_massage }}  <p>
@@ -12,4 +15,6 @@
 <input type="submit" value="submit form" class="btn btn-default" />
 </form>
 {% endif %}
+</div>
+</div>
 {% endblock %}
