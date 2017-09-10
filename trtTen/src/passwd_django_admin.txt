@@ -1,2 +1,0 @@
-user :mo
-passwd :4r3e2w1q
